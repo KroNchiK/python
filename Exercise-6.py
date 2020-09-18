@@ -15,4 +15,4 @@ for i in text:
 if out == True:
     print("Кажется, вы ввели слова не латиницей или в верхнем регистре :)")
 else:
-    print(f"int_func(text)")
+    print(f"{int_func(text)}")
