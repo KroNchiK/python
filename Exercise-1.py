@@ -6,7 +6,7 @@ class TrafficLight:
 
     def running(self, color):
         self.__color = color
-        print(self.__color)
+        print(f"\r{self.__color}", end="")
 
 
 tl = TrafficLight()
